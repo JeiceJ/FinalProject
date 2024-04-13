@@ -32,7 +32,7 @@ nav a:hover {
     color: #ffd700; 
 }
 
-/* Hero Section Styles */
+
 .hero {
     text-align: center;
     padding: 50px;
@@ -54,4 +54,43 @@ nav a:hover {
     font-size: 1.2em;
     color: #666;
 }
+
+
+/* History Font subject to change */
+#amiibo-history p {
+    font-size: 1.2em; 
+    line-height: 1.6; 
+    color: #444; 
+    margin-bottom: 20px; 
+    font-family: "Arial"
+    text-align: justify;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.centered-content {
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .centered-content h1 {
+    font-size: 2em; 
+  }
+  
+  .centered-content p {
+    font-size: 1.4em; 
+  }
+  
+  .centered-content input[type="text"],
+  .centered-content input[type="email"],
+  .centered-content input[type="tel"],
+  .centered-content textarea {
+    font-size: 1.2em; 
+  } 
+  
+  
+  
+
+
+
 
