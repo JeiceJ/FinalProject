@@ -62,7 +62,7 @@ nav a:hover {
     line-height: 1.6; 
     color: #444; 
     margin-bottom: 20px; 
-    font-family: "Arial"
+    font-family: "Arial";
     text-align: justify;
     text-decoration: none;
     letter-spacing: 1px;
@@ -87,6 +87,44 @@ nav a:hover {
   .centered-content textarea {
     font-size: 1.2em; 
   } 
+
+  #amiibo-history {
+    overflow: hidden; 
+}
+
+#amiibo-history img {
+    max-width: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: -700px;
+    position: relative;
+}
+#amiibo-history p {
+    max-width: 1000px;
+    font-family: "Arial";
+    text-align: justify;
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: absolute; 
+    bottom: -20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+
+
+
+  
+
+  
+ 
+  
+  
+
   
   
   
