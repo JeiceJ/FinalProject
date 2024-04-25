@@ -1,3 +1,4 @@
+/* Index Page Begin */
 header {
     background-color: white;
 }
@@ -92,8 +93,9 @@ nav a:hover {
     z-index: -1; 
     border-radius: 20px;
 }
+/* Index Page End */
 
-/* History Font subject to change */
+/* History Page Begin */
 #amiibo-history p {
     font-size: 1.2em; 
     line-height: 1.6; 
@@ -134,27 +136,12 @@ nav a:hover {
     width: 100%;
     height: auto;
     position: relative;
-    opacity: 0.3; 
+    opacity: 0.9; 
 }
+/* History Page End */
 
 
-#amiibo-history p {
-    font-size: 1.4em; 
-    line-height: 1.6; 
-    color: #444; 
-    margin-bottom: 20px; 
-    font-family: "Arial";
-    text-align: justify;
-    text-decoration: none;
-    letter-spacing: 1px;
-    position: absolute; 
-    bottom: -450px; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    margin: 0;
-    padding: 10px;
-    font-weight: bold; 
-}
+
 
 
 
