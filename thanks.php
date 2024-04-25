@@ -29,28 +29,13 @@
         </nav>
       </header>
 
+      <div class="centered-content">
 
       <section>
-        <h1>Contact Us</h1>
-        <p>Thank you for your feedback. We will get back to you in less than 24 hours. </p>
-        
-          <label for="fullName">Name:</label>
-          <input type="text" id="fullName" name="fullName" required><br>
-
-          <label for="phone">Phone:</label>
-          <input type="email" id="email" name="email" required><br>
-
-          <label for="contact">Preferred method of contact:</label><br>
-          <input type="radio" id="contactEmail" name="contact" value="email" checked>
-          <label for="contactEmail">Email</label><br>
-          <input type="radio" id="contactPhone" name="contact" value="phone">
-          <label for="contactPhone">Phone</label><br>
-
-          <label for="comment">Comments:</label><br>
-          <textarea name="comment" id="comment" cols="50" rows="4"></textarea><br>
-
-          <input type="submit" value="Submit">
+        <h1 id="contact-heading">Contact Us</h1>
+        <p>Thank you for your feedback! We will get back to you in less than 24 hours. </p>
       </section>
+    </div>
     </main>
   </body>
 </html>

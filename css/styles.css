@@ -32,29 +32,66 @@ nav a:hover {
     color: #ffd700; 
 }
 
+.active {
+    color: #ff0028;
+}
+
 
 .hero {
+    position: relative;
     text-align: center;
-    padding: 50px;
-    background-color: #f5f5f5; 
+    background-color: #f5f5f5;
+    overflow: hidden;
 }
 
 .hero img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    opacity: 0.7;
 }
 
 .hero h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 3.5em;
 }
 
 .hero p {
-    font-size: 1.2em;
-    color: #666;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 1.5em;
 }
 
+
+.hero h1.gallery {
+    position: absolute;
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 2em; 
+    color: white;
+}
+
+
+.hero h1.gallery::before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px; 
+    height: 40px; 
+    background-color: red;
+    z-index: -1; 
+    border-radius: 20px;
+}
 
 /* History Font subject to change */
 #amiibo-history p {
@@ -71,24 +108,24 @@ nav a:hover {
 .centered-content {
     text-align: center;
     font-size: 1.2em;
-  }
+}
 
-  .centered-content h1 {
+.centered-content h1 {
     font-size: 2em; 
-  }
-  
-  .centered-content p {
-    font-size: 1.4em; 
-  }
-  
-  .centered-content input[type="text"],
-  .centered-content input[type="email"],
-  .centered-content input[type="tel"],
-  .centered-content textarea {
-    font-size: 1.2em; 
-  } 
+}
 
-  #amiibo-history {
+.centered-content p {
+    font-size: 1.4em; 
+}
+
+.centered-content input[type="text"],
+.centered-content input[type="email"],
+.centered-content input[type="tel"],
+.centered-content textarea {
+    font-size: 1.2em; 
+} 
+
+#amiibo-history {
     overflow: hidden; 
 }
 
@@ -96,22 +133,36 @@ nav a:hover {
     max-width: none;
     width: 100%;
     height: auto;
-    margin-bottom: -700px;
     position: relative;
+    opacity: 0.3; 
 }
+
+
 #amiibo-history p {
-    max-width: 1000px;
+    font-size: 1.4em; 
+    line-height: 1.6; 
+    color: #444; 
+    margin-bottom: 20px; 
     font-family: "Arial";
     text-align: justify;
     text-decoration: none;
     letter-spacing: 1px;
     position: absolute; 
-    bottom: -20px; 
+    bottom: -450px; 
     left: 50%; 
     transform: translateX(-50%); 
     margin: 0;
     padding: 10px;
+    font-weight: bold; 
 }
+
+
+
+
+
+
+
+
 
 
 
